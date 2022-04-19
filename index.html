@@ -39,7 +39,7 @@
                 рулем настоящей легенды и узнать, на что она способна за пределами гоночной трассы!
             </div>
             <div class="main-action">
-                <button class="button">
+                <button class="button" id="main-action">
                     Посмотреть автомобили
                 </button>
             </div>
@@ -52,7 +52,7 @@
         <h2 class="sub-title">Наш автопарк </h2>
     <div class="car-items">
         <div class="car-item">
-            <div class="var-item-image">
+            <div class="car-item-image">
                 <img src="img/1.png">
             </div>
             <div class="car-item-title">
@@ -76,7 +76,7 @@
                 </div>
             </div>
                 <div class="car-item-action">
-                <button class="button">
+                <button class="button car-button">
                     Забронировать
                 </button>
             </div>
@@ -84,7 +84,7 @@
 
 
         <div class="car-item">
-            <div class="var-item-image">
+            <div class="car-item-image">
                 <img src="img/2.png">
             </div>
             <div class="car-item-title">
@@ -108,14 +108,14 @@
                 </div>
             </div>
                 <div class="car-item-action">
-                    <button class="button">
+                    <button class="button car-button">
                         Забронировать
                     </button>
                 </div>
             </div>
 
         <div class="car-item">
-            <div class="var-item-image">
+            <div class="car-item-image">
                 <img src="img/3.png">
             </div>
             <div class="car-item-title">
@@ -139,14 +139,14 @@
                 </div>
             </div>
                 <div class="car-item-action">
-                    <button class="button">
+                    <button class="button car-button">
                         Забронировать
                     </button>
                 </div>
         </div>
 
         <div class="car-item">
-            <div class="var-item-image">
+            <div class="car-item-image">
                 <img src="img/4.png">
             </div>
             <div class="car-item-title">
@@ -170,14 +170,14 @@
                 </div>
             </div>
                 <div class="car-item-action">
-                    <button class="button">
+                    <button class="button car-button">
                         Забронировать
                     </button>
                 </div>
            </div>
 
         <div class="car-item">
-            <div class="var-item-image">
+            <div class="car-item-image">
                 <img src="img/5.png">
             </div>
             <div class="car-item-title">
@@ -201,14 +201,14 @@
                 </div>
             </div>
                 <div class="car-item-action">
-                    <button class="button">
+                    <button class="button car-button">
                         Забронировать
                     </button>
                 </div>
         </div>
 
         <div class="car-item">
-            <div class="var-item-image">
+            <div class="car-item-image">
                 <img src="img/6.png">
             </div>
             <div class="car-item-title">
@@ -232,13 +232,13 @@
                 </div>
             </div>
                 <div class="car-item-action">
-                    <button class="button">
+                    <button class="button car-button">
                         Забронировать
                     </button>
                 </div>
         </div>
         <div class="car-item">
-            <div class="var-item-image">
+            <div class="car-item-image">
                 <img src="img/7.png">
             </div>
             <div class="car-item-title">
@@ -262,7 +262,7 @@
                 </div>
             </div>
             <div class="car-item-action">
-                <button class="button">
+                <button class="button car-button">
                     Забронировать
                 </button>
             </div>
@@ -270,7 +270,7 @@
 
 
         <div class="car-item">
-            <div class="var-item-image">
+            <div class="car-item-image">
                 <img src="img/8.png">
             </div>
             <div class="car-item-title">
@@ -294,14 +294,14 @@
                 </div>
             </div>
             <div class="car-item-action">
-                <button class="button">
+                <button class="button car-button">
                     Забронировать
                 </button>
             </div>
         </div>
 
         <div class="car-item">
-            <div class="var-item-image">
+            <div class="car-item-image">
                 <img src="img/9.png">
             </div>
             <div class="car-item-title">
@@ -325,7 +325,7 @@
                 </div>
             </div>
                 <div class="car-item-action">
-                    <button class="button">
+                    <button class="button car-button">
                         Забронировать
                     </button>
                 </div>
@@ -341,10 +341,10 @@
         Заполните данные, и мы перезвоним вам для уточнения всех деталей бронирования
     </div>
     <form action="" class="prise-form">
-        <input type="text" class="prise-input" placeholder="Ваше имя">
-        <input type="text" class="prise-input" placeholder="Ваш телефон">
-        <input type="email" class="prise-input" placeholder="Автомобиль, который вас интересует">
-        <button class="button"> Узнать цену</button>
+        <input type="text" class="prise-input" id="name" placeholder="Ваше имя">
+        <input type="text" class="prise-input" id="phone" placeholder="Ваш телефон">
+        <input type="email" class="prise-input" id="car" placeholder="Автомобиль, который вас интересует">
+        <button class="button" type="button" id="price-action"> Узнать цену</button>
     </form>
     <img class="price-image" src="img/rolls.png" alt="car">
 </div>
